@@ -1,6 +1,6 @@
-# comments can put here
+# comments can input here
 language: r
-cache: packages # help speed up loading time
+cache: packages # store packages to speed up time, no need to redo every single time
 r-packages
   - "dplyr"
   - "testthat"

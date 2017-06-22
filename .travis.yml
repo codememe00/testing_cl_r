@@ -2,8 +2,8 @@
 language: r
 cache: packages # help speed up loading time
 r-packages
-  - dplyr
-  - testthat
+  - "dplyr"
+  - "testthat"
 script:
   - Rscript test.R
 os

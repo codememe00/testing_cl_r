@@ -1,0 +1,11 @@
+# comments can put here
+language: r
+cache: packages # help speed up loading time
+r-packages
+  - dplyr
+  - testthat
+script:
+  - Rscript test.R
+os
+  -linux
+  -osx
